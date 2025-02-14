@@ -1,0 +1,14 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appID": "A4J29QK557.com.injaz.academy",
+				"paths": [
+					"/https://injazacademy.klabs.co/programs/*",
+					"/programs/*"
+				]
+			}
+		]
+	}
+}

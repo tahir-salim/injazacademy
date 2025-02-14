@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "build-TestCreator": "cd nova-components/TestCreator && npm run dev",
+        "build-TestCreator-prod": "cd nova-components/TestCreator && npm run prod",
+        "build-test-creator": "cd nova-components/TestCreator && npm run dev",
+        "build-test-creator-prod": "cd nova-components/TestCreator && npm run prod",
+        "build-content-manager": "cd nova-components/ContentManager && npm run dev",
+        "build-content-manager-prod": "cd nova-components/ContentManager && npm run prod",
+        "build-Chaptersort": "cd nova-components/Chaptersort && npm run dev",
+        "build-Chaptersort-prod": "cd nova-components/Chaptersort && npm run prod",
+        "build-manage-chapter": "cd nova-components/ManageChapter && npm run dev",
+        "build-manage-chapter-prod": "cd nova-components/ManageChapter && npm run prod",
+        "build-notifier": "cd nova-components/Notifier && npm run dev",
+        "build-notifier-prod": "cd nova-components/Notifier && npm run prod"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14"
+    }
+}

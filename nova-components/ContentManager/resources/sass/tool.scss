@@ -1,0 +1,149 @@
+// Nova Tool CSS
+.alia-custom-danger{
+    background: #f39c12;
+    color: #fff;
+    border: 0;
+    border-radius: .5rem;
+  }
+  
+  div.course-content-list [class*="mb-"]:nth-child(3n+0) .custom-border-left {
+    border-right: 0px !important;
+  }
+  .list-group-item {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding: 10px 15px;
+    background-color: #eef1f4;
+    border: 1px solid #ddd;
+  }
+  .list-group-item > .item-title {
+    flex: 5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .chapter-content-Delete{
+    height: 1.25rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 1.25rem;
+    border-radius: .5rem;
+    font-size: 10px;
+    margin-right: 5px;
+  }
+  .custom-btn-primary{
+    background-color: #286090;
+    border-color: #204d74;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 7px;
+    font-size: 10px;
+    line-height: 1.02857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .custom-btn-primary:hover{
+    background-color: #286090;
+    border-color: #204d74;
+  }
+  .custom-btn-success{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 7px;
+    font-size: 10px;
+    line-height: 1.02857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .custom-btn-success:hover{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+  }
+  .custom-btn-warning{
+    color: #fff;
+    background-color: #f0ad4e;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 7px;
+    font-size: 10px;
+    line-height: 1.02857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .custom-btn-warning:hover{
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+  }
+  .swal2-icon.swal2-warning {
+    border-color: #ce0023;
+    color: #ce0023;
+  }
+  .swal2-popup {
+    width: 50em;
+  }
+
+  .custom-btn-warning{
+    color: #fff;
+    background-color: #f0ad4e;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 7px;
+    font-size: 10px;
+    line-height: 1.02857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }

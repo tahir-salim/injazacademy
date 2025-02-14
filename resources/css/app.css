@@ -1,0 +1,5 @@
+/* Background Nova Image
+---------------------------------------------------------------------------- */
+.bg-grad-sidebar {
+    background-image: linear-gradient(0deg,#22a7ba,#3c4655) !important;
+}
